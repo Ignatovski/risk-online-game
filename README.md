@@ -6,9 +6,6 @@ Risk5 is a online multiplayer game based on the famous boardgame "Risk". It was 
 ## Visuals
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-## Installation
-Coming soon...
-
 ## Roadmap
 Many features can be implemented. For example, but not limited to: visuals to signify player interaction (highlight territory on click, show which can be selected, arrows), robust server communication (implement a handshake protocol for transimtting messages), different game modes (risk outlines several ways to play the original game, currently only the basic game mode is avaiable)
 
@@ -20,5 +17,4 @@ Petko Mikov, Danail Ignatoski, Petar Malamov
 
 ## Project status
 At the moment developement is not a priority
-# risk-online-game
-# risk-online-game
+
