@@ -1,0 +1,96 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/*#backButton, #createProfileButton, #playButton */
+
+
+.plainBackground {
+	-fx-background-color: rgb(225, 211, 184);
+	
+}
+
+.countries{
+	-fx-fill: #cc9966;
+}
+
+.countries:hover{
+	-fx-fill: #ac7339;
+}
+.scroll-pane {
+	-fx-background: transparent;
+	-fx-background-color: rgba(225,211,184);
+	-fx-background-insets: 1 1 1 1;
+	-fx-border-color: rgba(92,64,51);
+	-fx-border-width: 4px;
+	-fx-border-style: solid;
+	-fx-pointer-events: none;
+
+}
+.scroll-bar {
+	-fx-background-color: rgba(196, 164, 132);
+	-fx-background-radius: 10;
+	-fx-pref-width: 25px;
+}
+
+.thumb {
+	-fx-background-color: rgba(92,64,51);	
+}
+
+.increment-button {
+	-fx-background-color: rgba(92,64,51);
+	-fx-background-radius: 0 0 10 10;
+	-fx-pref-height: 20;
+	-fx-pref-width: 20;
+
+}
+
+.decrement-button {
+	-fx-background-color: rgba(92,64,51);
+	-fx-background-radius: 10 10 0 0;
+	-fx-pref-height: 20;
+	-fx-pref-width: 20;
+}
+
+.combo-box{
+	-fx-background-color: rgba(225,211,184);
+	-fx-background-radius: 10 10 10 10;
+	-fx-text-fill: black;
+}
+
+.combo-box .list-cell{
+	-fx-background-color: rgba(225,211,184);
+	-fx-text-fill: black;
+}
+
+.combo-box .list-cell:selected{
+	-fx-background-color: rgba(225,211,184);
+	-fx-background-radius: 10 0 0 10;
+	-fx-text-fill: black;
+}
+
+.combo-box .list-cell:hover{
+	-fx-background-color:rgba(92,64,51);
+	-fx-text-fill: white;
+}
+
+#gameBoard{
+	-fx-background-color: #ecd9c6;
+}
+
+#nextPhaseButton{
+	-fx-shape: "M 30 0 A 30 30 0 1 1 30 60 A 30 30 0 1 1 30 0";
+	-fx-font-size: 30px;
+	-fx-background-color: #1e90ff;
+}
+#trueButton{
+	-fx-shape: "M 30 0 A 30 30 0 1 1 30 60 A 30 30 0 1 1 30 0";
+	-fx-font-size: 30px;
+	-fx-background-color: #1e90ff;
+}
+#falseButton{
+	-fx-shape: "M 30 0 A 30 30 0 1 1 30 60 A 30 30 0 1 1 30 0";
+	-fx-font-size: 30px;
+	-fx-background-color: #1e90ff;
+}
+#cardsPane{
+	-fx-background-color: #1e90ff;
+}

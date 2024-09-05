@@ -1,0 +1,28 @@
+# ignores all files in target when pushing #
+target/
+target/*
+**/target
+/target
+target/.gitignore
+target/classes/.gitignore
+./target/*
+/target
+./target/classes/*
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled class file
+*.class
+
+# Database
+src/main/resources/risk-database.db
+risk-database.db
+risk-database.db-journal
+
